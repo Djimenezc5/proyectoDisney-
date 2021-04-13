@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyectoDisney+", "proyectoDisney+\proyectoDisney+.csproj", "{46905790-A7ED-4D17-9D0C-0E8B9F302FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46905790-A7ED-4D17-9D0C-0E8B9F302FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46905790-A7ED-4D17-9D0C-0E8B9F302FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46905790-A7ED-4D17-9D0C-0E8B9F302FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46905790-A7ED-4D17-9D0C-0E8B9F302FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0F91641-848C-46E0-B776-208229160EA0}
+	EndGlobalSection
+EndGlobal
