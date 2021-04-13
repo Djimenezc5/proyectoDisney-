@@ -52,28 +52,28 @@ namespace proyectoDisney_.Metodos_list.Lista_simple
 
         //Eliminar de la lista
 
-        public object eliminar()
-        {
-            object aux;
-            try
-            {
-                if (!listaVacia())
-                {
-                    aux = primero.dato;
-                    primero = primero.enlace;
-                }
-                else
-                {
-                    throw new Exception("No se puede eliminar de una pila vacia");
-                }
-            }
-            catch (Exception)
-            {
+        //public object eliminar()
+        //{
+        //    object aux;
+        //    try
+        //    {
+        //        if (!listaVacia())
+        //        {
+        //            aux = primero.dato;
+        //            primero = primero.enlace;
+        //        }
+        //        else
+        //        {
+        //            throw new Exception("No se puede eliminar de una pila vacia");
+        //        }
+        //    }
+        //    catch (Exception)
+        //    {
 
-                aux = null;
-            }
-            return aux;
-        }
+        //        aux = null;
+        //    }
+        //    return aux;
+        //}
         public void eliminar(object entrada)
         {
             NodoLista actual, anterior;
@@ -108,6 +108,40 @@ namespace proyectoDisney_.Metodos_list.Lista_simple
                 }
                 actual = null; // no es necesario al ser una variable local
             }
+        }
+
+        public int Tam_Lista() 
+        {
+            NodoLista actual;
+
+            int Contador = 0;
+            //inicializa los apuntadores
+            actual = primero;
+            // Tamaño de mi lista
+            while ((actual != null))
+            {
+                actual = actual.enlace;
+                Contador++;
+            }
+            return Contador;
+        }
+
+        public string val_nodo() {
+            
+            NodoLista actual;
+            string nodo = String.Empty;
+            Object obNodo = " ";
+            //inicializa los apuntadores
+            actual = primero;
+            // Tamaño de mi lista
+            while ((actual != null))
+            {
+                obNodo = actual.dato;
+                actual = actual.enlace;
+                nodo += Convert.ToString(obNodo)+"|";
+            }
+
+            return nodo;
         }
     }
 }

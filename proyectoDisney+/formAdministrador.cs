@@ -16,5 +16,12 @@ namespace proyectoDisney_
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            formAdminDisney v2 = new formAdminDisney();
+            v2.Show();
+        }
     }
 }
