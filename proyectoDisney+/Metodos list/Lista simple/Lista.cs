@@ -74,7 +74,40 @@ namespace proyectoDisney_.Metodos_list.Lista_simple
             }
             return aux;
         }
-
-
+        public void eliminar(object entrada)
+        {
+            NodoLista actual, anterior;
+            Boolean encontrado;
+            //inicializa los apuntadores
+            actual = primero;
+            anterior = null;
+            encontrado = false;
+            // búsqueda del nodo y del anterior
+            while ((actual != null) && (!encontrado))
+            {
+                encontrado = (actual.dato == entrada);
+                //con objetos: actual.dato.equals(entrada)
+                if (!encontrado)
+                {
+                    anterior = actual;
+                    actual = actual.enlace;
+                }
+            }
+            // Enlace del nodo anterior con el siguiente
+            if (actual != null)
+            {
+                // Distingue entre que el nodo sea el cabecera,
+                // o del resto de la lista
+                if (actual == primero)
+                {
+                    primero = actual.enlace;
+                }
+                else
+                {
+                    anterior.enlace = actual.enlace;
+                }
+                actual = null; // no es necesario al ser una variable local
+            }
+        }
     }
 }
