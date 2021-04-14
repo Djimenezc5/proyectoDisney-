@@ -76,6 +76,12 @@
     <Compile Include="formUser1.Designer.cs">
       <DependentUpon>formUser1.cs</DependentUpon>
     </Compile>
+    <Compile Include="loginAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginAdministrador.Designer.cs">
+      <DependentUpon>loginAdministrador.cs</DependentUpon>
+    </Compile>
     <Compile Include="marvelForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     </Compile>
     <Compile Include="nationalGeographicForm.Designer.cs">
       <DependentUpon>nationalGeographicForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="perfilesUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perfilesUsuarios.Designer.cs">
+      <DependentUpon>perfilesUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="pixarForm.cs">
       <SubType>Form</SubType>
@@ -125,11 +137,17 @@
     <EmbeddedResource Include="formUser1.resx">
       <DependentUpon>formUser1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="loginAdministrador.resx">
+      <DependentUpon>loginAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="marvelForm.resx">
       <DependentUpon>marvelForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nationalGeographicForm.resx">
       <DependentUpon>nationalGeographicForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perfilesUsuarios.resx">
+      <DependentUpon>perfilesUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pixarForm.resx">
       <DependentUpon>pixarForm.cs</DependentUpon>

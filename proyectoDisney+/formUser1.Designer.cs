@@ -97,19 +97,21 @@ namespace proyectoDisney_
             // 
             // button6
             // 
+            this.button6.BackColor = System.Drawing.Color.Transparent;
             this.button6.BackgroundImage = global::proyectoDisney_.Properties.Resources.disney_Central;
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(357, 12);
+            this.button6.Location = new System.Drawing.Point(373, 12);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(132, 79);
             this.button6.TabIndex = 5;
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
             this.button5.BackgroundImage = global::proyectoDisney_.Properties.Resources.national_geographic;
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -118,11 +120,12 @@ namespace proyectoDisney_
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(108, 55);
             this.button5.TabIndex = 4;
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
             this.button4.BackgroundImage = global::proyectoDisney_.Properties.Resources.star_wars;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -131,11 +134,12 @@ namespace proyectoDisney_
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 55);
             this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
             this.button3.BackgroundImage = global::proyectoDisney_.Properties.Resources.marvel;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -144,11 +148,12 @@ namespace proyectoDisney_
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 55);
             this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.BackgroundImage = global::proyectoDisney_.Properties.Resources.pixar;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -157,11 +162,12 @@ namespace proyectoDisney_
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 55);
             this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = global::proyectoDisney_.Properties.Resources.disney;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -170,7 +176,7 @@ namespace proyectoDisney_
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(113, 55);
             this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
@@ -187,6 +193,7 @@ namespace proyectoDisney_
             // 
             // button9
             // 
+            this.button9.BackColor = System.Drawing.Color.Transparent;
             this.button9.BackgroundImage = global::proyectoDisney_.Properties.Resources.iconSearchs5;
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -195,7 +202,7 @@ namespace proyectoDisney_
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(41, 41);
             this.button9.TabIndex = 13;
-            this.button9.UseVisualStyleBackColor = true;
+            this.button9.UseVisualStyleBackColor = false;
             // 
             // formUser1
             // 

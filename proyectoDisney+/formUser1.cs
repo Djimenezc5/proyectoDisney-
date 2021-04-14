@@ -35,7 +35,7 @@ namespace proyectoDisney_
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
+            perfilesUsuarios f1 = new perfilesUsuarios();
             this.Hide();
             f1.Show();
         }

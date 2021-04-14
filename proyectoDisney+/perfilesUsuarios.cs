@@ -10,29 +10,30 @@ using System.Windows.Forms;
 
 namespace proyectoDisney_
 {
-    public partial class Form1 : Form
+    public partial class perfilesUsuarios : Form
     {
-        public Form1()
+        public perfilesUsuarios()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            formAdminDisney v2 = new formAdminDisney();
-            this.Hide();
-            v2.Show();
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            perfilesUsuarios user1 = new perfilesUsuarios();
+            formUser1 user1 = new formUser1();
             this.Hide();
             user1.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            loginAdministrador loginAdmin = new loginAdministrador();
+            this.Hide();
+            loginAdmin.Show();
         }
     }
 }

@@ -38,6 +38,7 @@ namespace proyectoDisney_
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::proyectoDisney_.Properties.Resources.logoNationGeo;
             this.pictureBox1.Location = new System.Drawing.Point(413, 230);
             this.pictureBox1.Name = "pictureBox1";
@@ -48,6 +49,7 @@ namespace proyectoDisney_
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = global::proyectoDisney_.Properties.Resources.disney5;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -56,7 +58,7 @@ namespace proyectoDisney_
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 40);
             this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
@@ -73,6 +75,7 @@ namespace proyectoDisney_
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.BackgroundImage = global::proyectoDisney_.Properties.Resources.iconSearchs4;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -80,7 +83,7 @@ namespace proyectoDisney_
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(43, 41);
             this.button2.TabIndex = 3;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // nationalGeographicForm
