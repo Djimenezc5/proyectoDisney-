@@ -52,5 +52,12 @@ namespace proyectoDisney_
             listBox1.Items.Add(t_entradaTbox.Text);
             t_entradaTbox.Text = "";
         }
+
+        private void RegresarBtt_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f1 = new Form1();
+            f1.Show();
+        }
     }
 }

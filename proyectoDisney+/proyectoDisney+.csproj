@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="buscarPeliculasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscarPeliculasForm.Designer.cs">
+      <DependentUpon>buscarPeliculasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisneyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisneyForm.Designer.cs">
+      <DependentUpon>DisneyForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="formAdministrador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +70,18 @@
     <Compile Include="formAdminDisney.Designer.cs">
       <DependentUpon>formAdminDisney.cs</DependentUpon>
     </Compile>
+    <Compile Include="formUser1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUser1.Designer.cs">
+      <DependentUpon>formUser1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marvelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marvelForm.Designer.cs">
+      <DependentUpon>marvelForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Metodos list\Cola\Cola.cs" />
     <Compile Include="Metodos list\Cola\NodoCola.cs" />
     <Compile Include="Metodos list\Lista doblemente enlazada\ListaDoble.cs" />
@@ -66,13 +90,49 @@
     <Compile Include="Metodos list\Lista simple\NodoLista.cs" />
     <Compile Include="Metodos list\Pila\NodoPila.cs" />
     <Compile Include="Metodos list\Pila\Pila.cs" />
+    <Compile Include="nationalGeographicForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nationalGeographicForm.Designer.cs">
+      <DependentUpon>nationalGeographicForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pixarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pixarForm.Designer.cs">
+      <DependentUpon>pixarForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StarWarsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StarWarsForm.Designer.cs">
+      <DependentUpon>StarWarsForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="buscarPeliculasForm.resx">
+      <DependentUpon>buscarPeliculasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisneyForm.resx">
+      <DependentUpon>DisneyForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formAdministrador.resx">
       <DependentUpon>formAdministrador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formAdminDisney.resx">
       <DependentUpon>formAdminDisney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUser1.resx">
+      <DependentUpon>formUser1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marvelForm.resx">
+      <DependentUpon>marvelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nationalGeographicForm.resx">
+      <DependentUpon>nationalGeographicForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pixarForm.resx">
+      <DependentUpon>pixarForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -82,7 +142,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="StarWarsForm.resx">
+      <DependentUpon>StarWarsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -96,6 +160,71 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\disney.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\disney.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\marvel.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\star_wars.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\pixar.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\national_geographic.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\disney_Central.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\portada_Disney.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\fondoPrueba.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\starwars_image.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\starWarsBackground.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\pixarCentral.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\backgColorPixar.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\background_Marvel.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\marvelLogo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\backgroundNational.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\logoNationGeo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\backgroundFeed.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\iconSearch.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\iconSearchs.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\search.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\fondoBuscar.JPG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

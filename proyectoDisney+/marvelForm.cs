@@ -10,30 +10,25 @@ using System.Windows.Forms;
 
 namespace proyectoDisney_
 {
-    public partial class Form1 : Form
+    public partial class marvelForm : Form
     {
-        public Form1()
+        public marvelForm()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            formAdminDisney v2 = new formAdminDisney();
+            formUser1 f1 = new formUser1();
             this.Hide();
-            v2.Show();
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Application.Exit();
+            f1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            formUser1 user1 = new formUser1();
+            buscarPeliculasForm buscarPelicula = new buscarPeliculasForm();
             this.Hide();
-            user1.Show();
+            buscarPelicula.Show();
         }
     }
 }

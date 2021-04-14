@@ -102,6 +102,7 @@
             this.RegresarBtt.TabIndex = 6;
             this.RegresarBtt.Text = "Regresar";
             this.RegresarBtt.UseVisualStyleBackColor = true;
+            this.RegresarBtt.Click += new System.EventHandler(this.RegresarBtt_Click);
             // 
             // formAdminDisney
             // 
