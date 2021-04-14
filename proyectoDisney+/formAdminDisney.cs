@@ -50,7 +50,42 @@ namespace proyectoDisney_
         private void agregarBtt_Click(object sender, EventArgs e)
         {
             listBox1.Items.Add(t_entradaTbox.Text);
+            
+            StreamWriter swFile = new StreamWriter("Disney.txt", false);
+
+            foreach (var fila in listBox1.Items)
+            {
+                    swFile.WriteLine(fila);
+            }
+
+            swFile.Close();
+            disney.insertar(t_entradaTbox.Text);
             t_entradaTbox.Text = "";
+
+        }
+
+        private void eliminarBtt_Click(object sender, EventArgs e)
+        {
+
+            
+            if (t_entradaTbox.Text != " ")
+            {
+                listBox1.Items.Remove(t_entradaTbox.Text);
+                disney.eliminar(listBox1.SelectedItem);
+                t_entradaTbox.Text = "";
+
+            }
+
+                listBox1.Items.Remove(listBox1.SelectedItem);
+                disney.eliminar(listBox1.SelectedItem);
+
+            StreamWriter swFile = new StreamWriter("Disney.txt", false);
+
+            foreach (var fila in listBox1.Items)
+            {
+                swFile.WriteLine(fila);
+            }
+            swFile.Close();
         }
 
         private void RegresarBtt_Click(object sender, EventArgs e)

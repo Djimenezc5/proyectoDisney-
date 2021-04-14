@@ -92,6 +92,7 @@
             this.eliminarBtt.TabIndex = 5;
             this.eliminarBtt.Text = "Eliminar una pelicula";
             this.eliminarBtt.UseVisualStyleBackColor = true;
+            this.eliminarBtt.Click += new System.EventHandler(this.eliminarBtt_Click);
             // 
             // RegresarBtt
             // 
