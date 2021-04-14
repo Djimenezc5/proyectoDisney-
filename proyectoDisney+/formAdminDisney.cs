@@ -27,6 +27,8 @@ namespace proyectoDisney_
         private void formAdminDisney_Load(object sender, EventArgs e)
         {
             //Metodo para leer el achivo que contiene mi lista de elementos de Disney
+            StreamWriter archivo = new StreamWriter("Disney.txt", true);
+            archivo.Close();
             string[] lines = System.IO.File.ReadAllLines("Disney.txt");
 
             foreach (string line in lines)
@@ -43,7 +45,6 @@ namespace proyectoDisney_
                     listBox1.Items.Add(item);
                 }
             }
-               
         }
 
         private void agregarBtt_Click(object sender, EventArgs e)
