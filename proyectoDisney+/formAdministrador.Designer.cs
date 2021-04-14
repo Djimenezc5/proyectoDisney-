@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.disneyBtt = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.pixarBtn = new System.Windows.Forms.Button();
+            this.marvelBtn = new System.Windows.Forms.Button();
+            this.SWbtn = new System.Windows.Forms.Button();
+            this.natgeoBtn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -47,42 +47,45 @@
             this.disneyBtt.UseVisualStyleBackColor = true;
             this.disneyBtt.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // pixarBtn
             // 
-            this.button2.Location = new System.Drawing.Point(137, 105);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 54);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Usuario 1";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.pixarBtn.Location = new System.Drawing.Point(137, 105);
+            this.pixarBtn.Name = "pixarBtn";
+            this.pixarBtn.Size = new System.Drawing.Size(118, 54);
+            this.pixarBtn.TabIndex = 1;
+            this.pixarBtn.Text = "PIXAR";
+            this.pixarBtn.UseVisualStyleBackColor = true;
+            this.pixarBtn.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // marvelBtn
             // 
-            this.button3.Location = new System.Drawing.Point(261, 105);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 54);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Usuario 2";
-            this.button3.UseVisualStyleBackColor = true;
+            this.marvelBtn.Location = new System.Drawing.Point(261, 105);
+            this.marvelBtn.Name = "marvelBtn";
+            this.marvelBtn.Size = new System.Drawing.Size(118, 54);
+            this.marvelBtn.TabIndex = 2;
+            this.marvelBtn.Text = "MARVEL";
+            this.marvelBtn.UseVisualStyleBackColor = true;
+            this.marvelBtn.Click += new System.EventHandler(this.marvelBtn_Click);
             // 
-            // button4
+            // SWbtn
             // 
-            this.button4.Location = new System.Drawing.Point(385, 105);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 54);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Usuario 3";
-            this.button4.UseVisualStyleBackColor = true;
+            this.SWbtn.Location = new System.Drawing.Point(385, 105);
+            this.SWbtn.Name = "SWbtn";
+            this.SWbtn.Size = new System.Drawing.Size(118, 54);
+            this.SWbtn.TabIndex = 3;
+            this.SWbtn.Text = "STAR WARS";
+            this.SWbtn.UseVisualStyleBackColor = true;
+            this.SWbtn.Click += new System.EventHandler(this.SWbtn_Click);
             // 
-            // button5
+            // natgeoBtn
             // 
-            this.button5.Location = new System.Drawing.Point(509, 105);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(118, 54);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Usuario 4";
-            this.button5.UseVisualStyleBackColor = true;
+            this.natgeoBtn.Location = new System.Drawing.Point(509, 105);
+            this.natgeoBtn.Name = "natgeoBtn";
+            this.natgeoBtn.Size = new System.Drawing.Size(118, 54);
+            this.natgeoBtn.TabIndex = 4;
+            this.natgeoBtn.Text = "NATIONAL GEOGRAPHIC";
+            this.natgeoBtn.UseVisualStyleBackColor = true;
+            this.natgeoBtn.Click += new System.EventHandler(this.natgeoBtn_Click);
             // 
             // button1
             // 
@@ -100,10 +103,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(638, 390);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.natgeoBtn);
+            this.Controls.Add(this.SWbtn);
+            this.Controls.Add(this.marvelBtn);
+            this.Controls.Add(this.pixarBtn);
             this.Controls.Add(this.disneyBtt);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -114,10 +117,10 @@
         #endregion
 
         private System.Windows.Forms.Button disneyBtt;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button pixarBtn;
+        private System.Windows.Forms.Button marvelBtn;
+        private System.Windows.Forms.Button SWbtn;
+        private System.Windows.Forms.Button natgeoBtn;
         private System.Windows.Forms.Button button1;
     }
 }

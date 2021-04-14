@@ -70,6 +70,30 @@
     <Compile Include="formAdminDisney.Designer.cs">
       <DependentUpon>formAdminDisney.cs</DependentUpon>
     </Compile>
+    <Compile Include="formAdminMarvel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAdminMarvel.Designer.cs">
+      <DependentUpon>formAdminMarvel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formAdminNatGeo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAdminNatGeo.Designer.cs">
+      <DependentUpon>formAdminNatGeo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formAdminPixar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAdminPixar.Designer.cs">
+      <DependentUpon>formAdminPixar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formAdminSW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formAdminSW.Designer.cs">
+      <DependentUpon>formAdminSW.cs</DependentUpon>
+    </Compile>
     <Compile Include="formUser1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +157,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formAdminDisney.resx">
       <DependentUpon>formAdminDisney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAdminMarvel.resx">
+      <DependentUpon>formAdminMarvel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAdminNatGeo.resx">
+      <DependentUpon>formAdminNatGeo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAdminPixar.resx">
+      <DependentUpon>formAdminPixar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formAdminSW.resx">
+      <DependentUpon>formAdminSW.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formUser1.resx">
       <DependentUpon>formUser1.cs</DependentUpon>
