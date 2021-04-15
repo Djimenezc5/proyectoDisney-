@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using proyectoDisney_.variable_Global;
 
 namespace proyectoDisney_
 {
@@ -26,9 +27,20 @@ namespace proyectoDisney_
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            perfilesUsuarios user1 = new perfilesUsuarios();
+            perfilesUsuarios f1 = new perfilesUsuarios();
+            f1.Visible = true;
+
+            if (variableGlobal.contador == 5)
+            {
+                f1.construccion_BotonesTemps();
+                f1.construccion_BotonesTemps();
+            }
+            else if ((variableGlobal.contador == 4))
+            {
+                f1.construccion_BotonesTemps();
+            }
+
             this.Hide();
-            user1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -59,6 +71,7 @@ namespace proyectoDisney_
             this.Hide();
             NGAdmin.Show();
         }
+        
         private int ImgNum = 0;
 
         private void sigImg()

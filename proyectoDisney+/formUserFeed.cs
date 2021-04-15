@@ -164,6 +164,25 @@ namespace proyectoDisney_
             this.Hide();
             busquedaAvanzada.Show();
         }
+
+        private int ImgNum = 0;
+
+        private void sigImg()
+        {
+            if (ImgNum == 16)
+            {
+                ImgNum = 1;
+
+            }
+
+            pictureBox1.ImageLocation = string.Format(@"imagenes carrusel\{0}.jpg", ImgNum);
+            ImgNum++;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            sigImg();
+        }
     }
     
 }
