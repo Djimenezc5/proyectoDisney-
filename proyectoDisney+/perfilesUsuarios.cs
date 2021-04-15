@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace proyectoDisney_
 {
     public partial class perfilesUsuarios : Form
@@ -15,13 +16,6 @@ namespace proyectoDisney_
         public perfilesUsuarios()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            formUser1 user1 = new formUser1();
-            this.Hide();
-            user1.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -34,6 +28,22 @@ namespace proyectoDisney_
             loginAdministrador loginAdmin = new loginAdministrador();
             this.Hide();
             loginAdmin.Show();
+        }
+
+        private void botonCircular1_Click(object sender, EventArgs e)
+        {
+
+            formUser1 user1 = new formUser1();
+            this.Hide();
+            user1.Show();
+
+        }
+
+        private void botonCircular2_Click(object sender, EventArgs e)
+        {
+            formUser1 user1 = new formUser1();
+            this.Hide();
+            user1.Show();
         }
     }
 }
