@@ -115,6 +115,12 @@
     <Compile Include="formUserMarvel.Designer.cs">
       <DependentUpon>formUserMarvel.cs</DependentUpon>
     </Compile>
+    <Compile Include="formUserMiLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserMiLista.Designer.cs">
+      <DependentUpon>formUserMiLista.cs</DependentUpon>
+    </Compile>
     <Compile Include="Metodos list\Cola\Cola.cs" />
     <Compile Include="Metodos list\Cola\NodoCola.cs" />
     <Compile Include="Metodos list\Lista doblemente enlazada\ListaDoble.cs" />
@@ -182,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formUserMarvel.resx">
       <DependentUpon>formUserMarvel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserMiLista.resx">
+      <DependentUpon>formUserMiLista.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formUserNatGeographic.resx">
       <DependentUpon>formUserNatGeographic.cs</DependentUpon>
