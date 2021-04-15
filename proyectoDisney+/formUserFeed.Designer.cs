@@ -47,7 +47,7 @@ namespace proyectoDisney_
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(336, 314);
+            this.button7.Location = new System.Drawing.Point(231, 326);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(79, 45);
             this.button7.TabIndex = 6;
@@ -57,15 +57,15 @@ namespace proyectoDisney_
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(203, 314);
+            this.textBox1.Location = new System.Drawing.Point(98, 326);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(119, 20);
             this.textBox1.TabIndex = 7;
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(203, 351);
+            this.listBox1.Location = new System.Drawing.Point(98, 363);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(119, 134);
             this.listBox1.TabIndex = 8;
@@ -73,25 +73,25 @@ namespace proyectoDisney_
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(488, 351);
+            this.listBox2.Location = new System.Drawing.Point(601, 363);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(119, 134);
             this.listBox2.TabIndex = 9;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(488, 314);
+            this.textBox2.Location = new System.Drawing.Point(601, 326);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 11;
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(612, 317);
+            this.button8.Location = new System.Drawing.Point(725, 329);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.Size = new System.Drawing.Size(80, 42);
             this.button8.TabIndex = 10;
-            this.button8.Text = "button8";
+            this.button8.Text = "Continuar viendo";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
@@ -203,6 +203,7 @@ namespace proyectoDisney_
             this.button9.Size = new System.Drawing.Size(41, 41);
             this.button9.TabIndex = 13;
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // formUserFeed
             // 

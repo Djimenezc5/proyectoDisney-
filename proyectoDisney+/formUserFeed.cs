@@ -117,7 +117,6 @@ namespace proyectoDisney_
             archivoLista.Close();
 
             StreamReader leeListar = new StreamReader(string.Format("miLista{0}.txt", user), true);
-            //string[] contentMiListaTxt = leeListar.ReadToEnd();
             string[] contentMiListaTxt = File.ReadAllLines(string.Format("miLista{0}.txt", user));
             leeListar.Close();
 
@@ -126,7 +125,6 @@ namespace proyectoDisney_
             archivoContent1.Close();
 
             StreamReader archivoLeerUser1 = new StreamReader(string.Format("contVie{0}.txt", user), true);
-            //string dataContinuarViendoTxt = archivoLeerUser1.ReadToEnd();
             string[] dataContinuarViendoTxt = File.ReadAllLines(string.Format("contVie{0}.txt", user));
             archivoLeerUser1.Close();
 
@@ -159,6 +157,12 @@ namespace proyectoDisney_
                 }
             }
 
+        }
+        private void button9_Click(object sender, EventArgs e)
+        {
+            formUserBuscarPeliculas busquedaAvanzada = new formUserBuscarPeliculas();
+            this.Hide();
+            busquedaAvanzada.Show();
         }
     }
     

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,21 @@ namespace proyectoDisney_
             formUserBuscarPeliculas buscarPelicula = new formUserBuscarPeliculas();
             this.Hide();
             buscarPelicula.Show();
+        }
+
+        private void formUserNatGeographic_Load(object sender, EventArgs e)
+        {
+            StreamWriter escribirArchivo = new StreamWriter("Nat Geo.txt", true);
+            escribirArchivo.Close();
+            string[] lines = File.ReadAllLines("Nat Geo.txt");
+
+            foreach (string fila in lines)
+            {
+                if (!string.IsNullOrEmpty(fila))
+                {
+                    listBox1.Items.Add(fila);
+                }
+            }
         }
     }
 }
