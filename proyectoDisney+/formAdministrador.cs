@@ -19,9 +19,9 @@ namespace proyectoDisney_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            formAdminDisney v2 = new formAdminDisney();
+            formAdminDisney DisneyAdmin = new formAdminDisney();
             this.Hide();
-            v2.Show();
+            DisneyAdmin.Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -33,6 +33,31 @@ namespace proyectoDisney_
 
         private void button2_Click(object sender, EventArgs e)
         {
+            formAdminPixar PixarAdmin = new formAdminPixar();
+            this.Hide();
+            PixarAdmin.Show();
+        }
+
+        private void marvelBtn_Click(object sender, EventArgs e)
+        {
+            formAdminMarvel MarvelAdmin = new formAdminMarvel();
+            this.Hide();
+            MarvelAdmin.Show();
+
+        }
+
+        private void SWbtn_Click(object sender, EventArgs e)
+        {
+            formAdminSW SWAdmin = new formAdminSW();
+            this.Hide();
+            SWAdmin.Show();
+        }
+
+        private void natgeoBtn_Click(object sender, EventArgs e)
+        {
+            formAdminNatGeo NGAdmin = new formAdminNatGeo();
+            this.Hide();
+            NGAdmin.Show();
         }
     }
 }
