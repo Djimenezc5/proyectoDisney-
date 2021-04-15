@@ -1,7 +1,7 @@
 ﻿
 namespace proyectoDisney_
 {
-    partial class formUser1
+    partial class formUserFeed
     {
         /// <summary>
         /// Required designer variable.

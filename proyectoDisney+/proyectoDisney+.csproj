@@ -49,17 +49,17 @@
     <Compile Include="Botones\BotonCircular.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="buscarPeliculasForm.cs">
+    <Compile Include="formUserBuscarPeliculas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="buscarPeliculasForm.Designer.cs">
-      <DependentUpon>buscarPeliculasForm.cs</DependentUpon>
+    <Compile Include="formUserBuscarPeliculas.Designer.cs">
+      <DependentUpon>formUserBuscarPeliculas.cs</DependentUpon>
     </Compile>
-    <Compile Include="DisneyForm.cs">
+    <Compile Include="formUserDisney.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DisneyForm.Designer.cs">
-      <DependentUpon>DisneyForm.cs</DependentUpon>
+    <Compile Include="formUserDisney.Designer.cs">
+      <DependentUpon>formUserDisney.cs</DependentUpon>
     </Compile>
     <Compile Include="formAdministrador.cs">
       <SubType>Form</SubType>
@@ -97,23 +97,23 @@
     <Compile Include="formAdminSW.Designer.cs">
       <DependentUpon>formAdminSW.cs</DependentUpon>
     </Compile>
-    <Compile Include="formUser1.cs">
+    <Compile Include="formUserFeed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formUser1.Designer.cs">
-      <DependentUpon>formUser1.cs</DependentUpon>
+    <Compile Include="formUserFeed.Designer.cs">
+      <DependentUpon>formUserFeed.cs</DependentUpon>
     </Compile>
-    <Compile Include="loginAdministrador.cs">
+    <Compile Include="formLoginAdministrador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="loginAdministrador.Designer.cs">
-      <DependentUpon>loginAdministrador.cs</DependentUpon>
+    <Compile Include="formLoginAdministrador.Designer.cs">
+      <DependentUpon>formLoginAdministrador.cs</DependentUpon>
     </Compile>
-    <Compile Include="marvelForm.cs">
+    <Compile Include="formUserMarvel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="marvelForm.Designer.cs">
-      <DependentUpon>marvelForm.cs</DependentUpon>
+    <Compile Include="formUserMarvel.Designer.cs">
+      <DependentUpon>formUserMarvel.cs</DependentUpon>
     </Compile>
     <Compile Include="Metodos list\Cola\Cola.cs" />
     <Compile Include="Metodos list\Cola\NodoCola.cs" />
@@ -123,11 +123,11 @@
     <Compile Include="Metodos list\Lista simple\NodoLista.cs" />
     <Compile Include="Metodos list\Pila\NodoPila.cs" />
     <Compile Include="Metodos list\Pila\Pila.cs" />
-    <Compile Include="nationalGeographicForm.cs">
+    <Compile Include="formUserNatGeographic.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="nationalGeographicForm.Designer.cs">
-      <DependentUpon>nationalGeographicForm.cs</DependentUpon>
+    <Compile Include="formUserNatGeographic.Designer.cs">
+      <DependentUpon>formUserNatGeographic.cs</DependentUpon>
     </Compile>
     <Compile Include="perfilesUsuarios.cs">
       <SubType>Form</SubType>
@@ -135,25 +135,25 @@
     <Compile Include="perfilesUsuarios.Designer.cs">
       <DependentUpon>perfilesUsuarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="pixarForm.cs">
+    <Compile Include="formUserPixar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pixarForm.Designer.cs">
-      <DependentUpon>pixarForm.cs</DependentUpon>
+    <Compile Include="formUserPixar.Designer.cs">
+      <DependentUpon>formUserPixar.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StarWarsForm.cs">
+    <Compile Include="formUserStarWars.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StarWarsForm.Designer.cs">
-      <DependentUpon>StarWarsForm.cs</DependentUpon>
+    <Compile Include="formUserStarWars.Designer.cs">
+      <DependentUpon>formUserStarWars.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="buscarPeliculasForm.resx">
-      <DependentUpon>buscarPeliculasForm.cs</DependentUpon>
+    <EmbeddedResource Include="formUserBuscarPeliculas.resx">
+      <DependentUpon>formUserBuscarPeliculas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DisneyForm.resx">
-      <DependentUpon>DisneyForm.cs</DependentUpon>
+    <EmbeddedResource Include="formUserDisney.resx">
+      <DependentUpon>formUserDisney.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formAdministrador.resx">
       <DependentUpon>formAdministrador.cs</DependentUpon>
@@ -173,23 +173,23 @@
     <EmbeddedResource Include="formAdminSW.resx">
       <DependentUpon>formAdminSW.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formUser1.resx">
-      <DependentUpon>formUser1.cs</DependentUpon>
+    <EmbeddedResource Include="formUserFeed.resx">
+      <DependentUpon>formUserFeed.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="loginAdministrador.resx">
-      <DependentUpon>loginAdministrador.cs</DependentUpon>
+    <EmbeddedResource Include="formLoginAdministrador.resx">
+      <DependentUpon>formLoginAdministrador.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="marvelForm.resx">
-      <DependentUpon>marvelForm.cs</DependentUpon>
+    <EmbeddedResource Include="formUserMarvel.resx">
+      <DependentUpon>formUserMarvel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="nationalGeographicForm.resx">
-      <DependentUpon>nationalGeographicForm.cs</DependentUpon>
+    <EmbeddedResource Include="formUserNatGeographic.resx">
+      <DependentUpon>formUserNatGeographic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="perfilesUsuarios.resx">
       <DependentUpon>perfilesUsuarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pixarForm.resx">
-      <DependentUpon>pixarForm.cs</DependentUpon>
+    <EmbeddedResource Include="formUserPixar.resx">
+      <DependentUpon>formUserPixar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -201,8 +201,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="StarWarsForm.resx">
-      <DependentUpon>StarWarsForm.cs</DependentUpon>
+    <EmbeddedResource Include="formUserStarWars.resx">
+      <DependentUpon>formUserStarWars.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

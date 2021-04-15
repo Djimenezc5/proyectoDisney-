@@ -1,7 +1,7 @@
 ﻿
 namespace proyectoDisney_
 {
-    partial class pixarForm
+    partial class formUserPixar
     {
         /// <summary>
         /// Required designer variable.

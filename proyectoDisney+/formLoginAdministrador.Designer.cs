@@ -1,7 +1,7 @@
 ﻿
 namespace proyectoDisney_
 {
-    partial class loginAdministrador
+    partial class formLoginAdministrador
     {
         /// <summary>
         /// Required designer variable.

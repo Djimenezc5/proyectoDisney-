@@ -25,7 +25,7 @@ namespace proyectoDisney_
 
         private void button6_Click(object sender, EventArgs e)
         {
-            loginAdministrador loginAdmin = new loginAdministrador();
+            formLoginAdministrador loginAdmin = new formLoginAdministrador();
             this.Hide();
             loginAdmin.Show();
         }
@@ -33,7 +33,7 @@ namespace proyectoDisney_
         private void botonCircular1_Click(object sender, EventArgs e)
         {
 
-            formUser1 user1 = new formUser1();
+            formUserFeed user1 = new formUserFeed();
             this.Hide();
             user1.Show();
 
@@ -41,7 +41,7 @@ namespace proyectoDisney_
 
         private void botonCircular2_Click(object sender, EventArgs e)
         {
-            formUser1 user1 = new formUser1();
+            formUserFeed user1 = new formUserFeed();
             this.Hide();
             user1.Show();
         }
