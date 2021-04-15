@@ -149,6 +149,7 @@
     <Compile Include="formUserStarWars.Designer.cs">
       <DependentUpon>formUserStarWars.cs</DependentUpon>
     </Compile>
+    <Compile Include="variable Global\variableGlobal.cs" />
     <EmbeddedResource Include="formUserBuscarPeliculas.resx">
       <DependentUpon>formUserBuscarPeliculas.cs</DependentUpon>
     </EmbeddedResource>
@@ -283,6 +284,8 @@
   <ItemGroup>
     <None Include="imagenes\fondoBuscar.JPG" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="imagenes\agregarUsuario.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

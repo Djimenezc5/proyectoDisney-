@@ -130,9 +130,6 @@
   <data name="fondoPrueba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\fondoPrueba.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="disney4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="disney5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,8 +151,8 @@
   <data name="pixar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\pixar.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="disney" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="portada_Disney" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\portada_Disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconSearchs7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\iconSearchs.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,11 +163,17 @@
   <data name="pixarCentral" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\pixarCentral.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="disney2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="star_wars" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\star_wars.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconSearchs3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\iconSearchs.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="national_geographic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\national_geographic.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="backgroundFeed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\backgroundFeed.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,6 +199,9 @@
   <data name="disney7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="disney8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="star_wars3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\star_wars.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -211,7 +217,7 @@
   <data name="portada_Disney2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\portada_Disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="disney2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="disney4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fondoPrueba1" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -229,11 +235,11 @@
   <data name="disney6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="disney3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="disney_Central" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\disney_Central.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="national_geographic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\national_geographic.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background_Marvel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\background_Marvel.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,19 +247,16 @@
   <data name="starWarsBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\starWarsBackground.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="disney3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="iconSearchs6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\iconSearchs.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="portada_Disney" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\portada_Disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="disney" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fondoBuscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\fondoBuscar.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="disney8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\disney.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="agregarUsuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\agregarUsuario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

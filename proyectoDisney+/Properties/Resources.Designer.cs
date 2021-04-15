@@ -63,6 +63,16 @@ namespace proyectoDisney_.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agregarUsuario {
+            get {
+                object obj = ResourceManager.GetObject("agregarUsuario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backgColorPixar {
             get {
                 object obj = ResourceManager.GetObject("backgColorPixar", resourceCulture);

@@ -47,17 +47,17 @@ namespace proyectoDisney_
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(244, 362);
+            this.button7.Location = new System.Drawing.Point(336, 314);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.Size = new System.Drawing.Size(79, 45);
             this.button7.TabIndex = 6;
-            this.button7.Text = "button7";
+            this.button7.Text = "Agregar a mi Lista";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(111, 362);
+            this.textBox1.Location = new System.Drawing.Point(203, 314);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 7;
@@ -65,7 +65,7 @@ namespace proyectoDisney_
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(111, 399);
+            this.listBox1.Location = new System.Drawing.Point(203, 351);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(119, 134);
             this.listBox1.TabIndex = 8;
@@ -73,21 +73,21 @@ namespace proyectoDisney_
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(387, 399);
+            this.listBox2.Location = new System.Drawing.Point(488, 351);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(119, 134);
             this.listBox2.TabIndex = 9;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(387, 365);
+            this.textBox2.Location = new System.Drawing.Point(488, 314);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 11;
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(520, 365);
+            this.button8.Location = new System.Drawing.Point(612, 317);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 23);
             this.button8.TabIndex = 10;
@@ -204,13 +204,13 @@ namespace proyectoDisney_
             this.button9.TabIndex = 13;
             this.button9.UseVisualStyleBackColor = false;
             // 
-            // formUser1
+            // formUserFeed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::proyectoDisney_.Properties.Resources.backgroundFeed;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(890, 586);
+            this.ClientSize = new System.Drawing.Size(883, 657);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
@@ -225,7 +225,7 @@ namespace proyectoDisney_
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "formUser1";
+            this.Name = "formUserFeed";
             this.Text = "formUser1";
             this.Load += new System.EventHandler(this.formUser1_Load);
             this.ResumeLayout(false);

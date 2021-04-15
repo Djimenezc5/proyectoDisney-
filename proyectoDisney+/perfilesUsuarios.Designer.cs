@@ -31,8 +31,7 @@ namespace proyectoDisney_
         {
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.botonCircular4 = new proyectoDisney_.Botones.BotonCircular();
-            this.botonCircular3 = new proyectoDisney_.Botones.BotonCircular();
+            this.button1 = new System.Windows.Forms.Button();
             this.botonCircular2 = new proyectoDisney_.Botones.BotonCircular();
             this.botonCircular1 = new proyectoDisney_.Botones.BotonCircular();
             this.SuspendLayout();
@@ -49,7 +48,7 @@ namespace proyectoDisney_
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(689, 411);
+            this.button6.Location = new System.Drawing.Point(638, 410);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(78, 26);
             this.button6.TabIndex = 5;
@@ -57,30 +56,24 @@ namespace proyectoDisney_
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // botonCircular4
+            // button1
             // 
-            this.botonCircular4.BackColor = System.Drawing.Color.Transparent;
-            this.botonCircular4.Location = new System.Drawing.Point(567, 139);
-            this.botonCircular4.Name = "botonCircular4";
-            this.botonCircular4.Size = new System.Drawing.Size(151, 143);
-            this.botonCircular4.TabIndex = 9;
-            this.botonCircular4.Text = "Usuario 4";
-            this.botonCircular4.UseVisualStyleBackColor = false;
-            // 
-            // botonCircular3
-            // 
-            this.botonCircular3.BackColor = System.Drawing.Color.Transparent;
-            this.botonCircular3.Location = new System.Drawing.Point(396, 139);
-            this.botonCircular3.Name = "botonCircular3";
-            this.botonCircular3.Size = new System.Drawing.Size(151, 143);
-            this.botonCircular3.TabIndex = 8;
-            this.botonCircular3.Text = "Usuario 3";
-            this.botonCircular3.UseVisualStyleBackColor = false;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::proyectoDisney_.Properties.Resources.agregarUsuario;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(693, 41);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(66, 55);
+            this.button1.TabIndex = 8;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // botonCircular2
             // 
             this.botonCircular2.BackColor = System.Drawing.Color.Transparent;
-            this.botonCircular2.Location = new System.Drawing.Point(228, 139);
+            this.botonCircular2.Location = new System.Drawing.Point(402, 83);
             this.botonCircular2.Name = "botonCircular2";
             this.botonCircular2.Size = new System.Drawing.Size(151, 143);
             this.botonCircular2.TabIndex = 7;
@@ -91,7 +84,8 @@ namespace proyectoDisney_
             // botonCircular1
             // 
             this.botonCircular1.BackColor = System.Drawing.Color.Transparent;
-            this.botonCircular1.Location = new System.Drawing.Point(78, 143);
+            this.botonCircular1.ForeColor = System.Drawing.Color.Black;
+            this.botonCircular1.Location = new System.Drawing.Point(234, 85);
             this.botonCircular1.Name = "botonCircular1";
             this.botonCircular1.Size = new System.Drawing.Size(144, 139);
             this.botonCircular1.TabIndex = 6;
@@ -103,9 +97,8 @@ namespace proyectoDisney_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(793, 467);
-            this.Controls.Add(this.botonCircular4);
-            this.Controls.Add(this.botonCircular3);
+            this.ClientSize = new System.Drawing.Size(820, 486);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.botonCircular2);
             this.Controls.Add(this.botonCircular1);
             this.Controls.Add(this.button6);
@@ -121,7 +114,6 @@ namespace proyectoDisney_
         private System.Windows.Forms.Button button6;
         private Botones.BotonCircular botonCircular1;
         private Botones.BotonCircular botonCircular2;
-        private Botones.BotonCircular botonCircular3;
-        private Botones.BotonCircular botonCircular4;
+        private System.Windows.Forms.Button button1;
     }
 }
