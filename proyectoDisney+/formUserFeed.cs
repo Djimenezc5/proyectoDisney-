@@ -13,12 +13,12 @@ using proyectoDisney_.Metodos_list.Pila;
 
 namespace proyectoDisney_
 {
-    public partial class formUser1 : Form
+    public partial class formUserFeed : Form
     {
         //Se crea instancia de pila mi lista usuario
         Pila miLista;
         Cola continuarViendo;
-        public formUser1()
+        public formUserFeed()
         {
             InitializeComponent();
             //Se crea objeto tipo Pila
@@ -28,7 +28,7 @@ namespace proyectoDisney_
 
         private void button3_Click(object sender, EventArgs e)
         {
-            marvelForm formMarvel = new marvelForm();
+            formUserMarvel formMarvel = new formUserMarvel();
             this.Hide();
             formMarvel.Show();
         }
@@ -112,28 +112,28 @@ namespace proyectoDisney_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DisneyForm fomDisney = new DisneyForm();
+            formUserDisney fomDisney = new formUserDisney();
             this.Hide();
             fomDisney.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            pixarForm formPix = new pixarForm();
+            formUserPixar formPix = new formUserPixar();
             this.Hide();
             formPix.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            StarWarsForm formStarWars = new StarWarsForm();
+            formUserStarWars formStarWars = new formUserStarWars();
             this.Hide();
             formStarWars.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            nationalGeographicForm nationGeoForm = new nationalGeographicForm();
+            formUserNatGeographic nationGeoForm = new formUserNatGeographic();
             this.Hide();
             nationGeoForm.Show();
         }

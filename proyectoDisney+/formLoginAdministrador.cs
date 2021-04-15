@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace proyectoDisney_
 {
-    public partial class loginAdministrador : Form
+    public partial class formLoginAdministrador : Form
     {
-        public loginAdministrador()
+        public formLoginAdministrador()
         {
             InitializeComponent();
         }

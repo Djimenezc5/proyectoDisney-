@@ -10,25 +10,19 @@ using System.Windows.Forms;
 
 namespace proyectoDisney_
 {
-    public partial class DisneyForm : Form
+    public partial class formUserBuscarPeliculas : Form
     {
-        public DisneyForm()
+        public formUserBuscarPeliculas()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            formUser1 f1 = new formUser1();
+            //Falta validar para que sea dinamico y se pueda reutilizar en los demas perfiles usuarios
+            formUserFeed f1 = new formUserFeed();
             this.Hide();
             f1.Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            buscarPeliculasForm buscarPelicula = new buscarPeliculasForm();
-            this.Hide();
-            buscarPelicula.Show();
         }
     }
 }

@@ -10,19 +10,25 @@ using System.Windows.Forms;
 
 namespace proyectoDisney_
 {
-    public partial class buscarPeliculasForm : Form
+    public partial class formUserNatGeographic : Form
     {
-        public buscarPeliculasForm()
+        public formUserNatGeographic()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Falta validar para que sea dinamico y se pueda reutilizar en los demas perfiles usuarios
-            formUser1 f1 = new formUser1();
+            formUserFeed f1 = new formUserFeed();
             this.Hide();
             f1.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            formUserBuscarPeliculas buscarPelicula = new formUserBuscarPeliculas();
+            this.Hide();
+            buscarPelicula.Show();
         }
     }
 }

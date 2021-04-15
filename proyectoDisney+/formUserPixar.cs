@@ -10,23 +10,23 @@ using System.Windows.Forms;
 
 namespace proyectoDisney_
 {
-    public partial class StarWarsForm : Form
+    public partial class formUserPixar : Form
     {
-        public StarWarsForm()
+        public formUserPixar()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            formUser1 f1 = new formUser1();
+            formUserFeed f1 = new formUserFeed();
             this.Hide();
             f1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            buscarPeliculasForm buscarPelicula = new buscarPeliculasForm();
+            formUserBuscarPeliculas buscarPelicula = new formUserBuscarPeliculas();
             this.Hide();
             buscarPelicula.Show();
         }

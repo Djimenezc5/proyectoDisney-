@@ -1,7 +1,7 @@
 ﻿
 namespace proyectoDisney_
 {
-    partial class buscarPeliculasForm
+    partial class formUserBuscarPeliculas
     {
         /// <summary>
         /// Required designer variable.
