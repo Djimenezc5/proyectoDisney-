@@ -56,6 +56,7 @@ namespace proyectoDisney_
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Verdana", 10F);
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(250, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 17);
@@ -67,6 +68,7 @@ namespace proyectoDisney_
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Verdana", 10F);
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(466, 15);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 17);
@@ -83,32 +85,41 @@ namespace proyectoDisney_
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(462, 285);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(134, 32);
             this.button5.TabIndex = 10;
             this.button5.Text = "Continuar viendo";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
+            this.button6.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(682, 644);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(100, 32);
             this.button6.TabIndex = 11;
             this.button6.Text = "Siguiente";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
+            this.button7.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Location = new System.Drawing.Point(229, 279);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(105, 44);
             this.button7.TabIndex = 12;
             this.button7.Text = "Ver Película de Mí Lista";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // timer1
@@ -129,7 +140,6 @@ namespace proyectoDisney_
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 56);
             this.button1.TabIndex = 14;
-            this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -145,6 +155,8 @@ namespace proyectoDisney_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::proyectoDisney_.Properties.Resources.backgroundFeed;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(816, 701);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.picImage);
