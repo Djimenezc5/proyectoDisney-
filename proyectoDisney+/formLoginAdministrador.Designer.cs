@@ -118,6 +118,7 @@ namespace proyectoDisney_
             this.Controls.Add(this.txtUserLogin);
             this.Controls.Add(this.button1);
             this.Name = "formLoginAdministrador";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "loginAdministrador";
             this.Load += new System.EventHandler(this.loginAdministrador_Load);
             this.ResumeLayout(false);

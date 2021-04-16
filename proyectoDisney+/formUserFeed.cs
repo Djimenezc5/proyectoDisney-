@@ -91,7 +91,8 @@ namespace proyectoDisney_
 
             }
 
-            pictureBox1.ImageLocation = string.Format(@"imagenes carrusel\{0}.jpg", ImgNum);
+            //pictureBox1.ImageLocation = string.Format(@"imagenes carrusel\{0}.jpg", ImgNum);
+            pictureBox1.ImageLocation = string.Format(@"{0}.jpg", ImgNum);
             ImgNum++;
         }
 
@@ -105,6 +106,16 @@ namespace proyectoDisney_
             formUserMiLista f2 = new formUserMiLista();
             this.Hide();
             f2.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void formUserFeed_Load(object sender, EventArgs e)
+        {
+
         }
     }
     

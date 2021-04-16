@@ -16,7 +16,7 @@ namespace proyectoDisney_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new perfilesUsuarios());
+            Application.Run(new loading());
         }
     }
 }

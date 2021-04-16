@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using proyectoDisney_.CargaTLArchivos;
+
 
 namespace proyectoDisney_
 {
@@ -23,6 +25,24 @@ namespace proyectoDisney_
             formUserFeed f1 = new formUserFeed();
             this.Hide();
             f1.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            cargaArchivos mandarTexto = new cargaArchivos();
+
+            listBox1.Items.Clear(); 
+            List<string> listCoincidencias = mandarTexto.LoadingTxt();
+            foreach (var dto in listCoincidencias)
+            {
+                listBox1.Items.Add(dto);
+            }
+
         }
     }
 }

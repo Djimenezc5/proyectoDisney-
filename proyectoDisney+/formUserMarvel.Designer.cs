@@ -138,6 +138,7 @@ namespace proyectoDisney_
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "formUserMarvel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "marvelForm";
             this.Load += new System.EventHandler(this.formUserMarvel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -138,6 +138,7 @@ namespace proyectoDisney_
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "formUserNatGeographic";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "nationalGeographicForm";
             this.Load += new System.EventHandler(this.formUserNatGeographic_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

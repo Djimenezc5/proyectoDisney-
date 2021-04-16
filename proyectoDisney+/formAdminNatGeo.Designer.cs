@@ -132,6 +132,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Name = "formAdminNatGeo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formAdminNatGeo";
             this.Load += new System.EventHandler(this.formAdminNatGeo_Load);
             this.ResumeLayout(false);

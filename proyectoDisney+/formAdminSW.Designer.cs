@@ -133,6 +133,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Name = "formAdminSW";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formAdminSW";
             this.Load += new System.EventHandler(this.formAdminSW_Load);
             this.ResumeLayout(false);

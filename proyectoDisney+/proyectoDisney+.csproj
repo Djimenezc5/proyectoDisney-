@@ -52,6 +52,7 @@
     <Compile Include="Botones\BotonCircular.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CargaTLArchivos\cargaArchivos.cs" />
     <Compile Include="formUserBuscarPeliculas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +124,12 @@
     </Compile>
     <Compile Include="formUserMiLista.Designer.cs">
       <DependentUpon>formUserMiLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading.Designer.cs">
+      <DependentUpon>loading.cs</DependentUpon>
     </Compile>
     <Compile Include="Metodos list\Cola\Cola.cs" />
     <Compile Include="Metodos list\Cola\NodoCola.cs" />
@@ -197,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formUserNatGeographic.resx">
       <DependentUpon>formUserNatGeographic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading.resx">
+      <DependentUpon>loading.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="perfilesUsuarios.resx">
       <DependentUpon>perfilesUsuarios.cs</DependentUpon>
@@ -299,6 +309,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="imagenes\agregarUsuario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuenta_regresiva.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\Conteo_regresivo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\userLogo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\login.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

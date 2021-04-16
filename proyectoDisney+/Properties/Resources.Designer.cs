@@ -103,9 +103,29 @@ namespace proyectoDisney_.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backgroundFeed1 {
+            get {
+                object obj = ResourceManager.GetObject("backgroundFeed1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backgroundNational {
             get {
                 object obj = ResourceManager.GetObject("backgroundNational", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Conteo_regresivo {
+            get {
+                object obj = ResourceManager.GetObject("Conteo_regresivo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,6 +273,16 @@ namespace proyectoDisney_.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondoPrueba2 {
+            get {
+                object obj = ResourceManager.GetObject("fondoPrueba2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconSearch {
             get {
                 object obj = ResourceManager.GetObject("iconSearch", resourceCulture);
@@ -336,6 +366,16 @@ namespace proyectoDisney_.Properties {
         internal static System.Drawing.Bitmap iconSearchs7 {
             get {
                 object obj = ResourceManager.GetObject("iconSearchs7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap login {
+            get {
+                object obj = ResourceManager.GetObject("login", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -526,6 +566,16 @@ namespace proyectoDisney_.Properties {
         internal static System.Drawing.Bitmap starWarsBackground {
             get {
                 object obj = ResourceManager.GetObject("starWarsBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap userLogo {
+            get {
+                object obj = ResourceManager.GetObject("userLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

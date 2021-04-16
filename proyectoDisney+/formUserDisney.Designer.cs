@@ -144,6 +144,7 @@ namespace proyectoDisney_
             this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "formUserDisney";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DisneyForm";
             this.Load += new System.EventHandler(this.formUserDisney_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
