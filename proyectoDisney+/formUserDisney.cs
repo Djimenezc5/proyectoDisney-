@@ -72,5 +72,10 @@ namespace proyectoDisney_
             archivoUser.Close();
             MessageBox.Show("Se agrego el contenido "+"*"+ dato +"*"+ " a MI LISTA de reproducción.");
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
