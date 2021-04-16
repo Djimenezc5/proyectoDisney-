@@ -158,7 +158,7 @@ namespace proyectoDisney_
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(85, 350);
+            this.pictureBox1.Location = new System.Drawing.Point(78, 160);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(768, 354);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -191,7 +191,7 @@ namespace proyectoDisney_
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::proyectoDisney_.Properties.Resources.backgroundFeed;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(967, 716);
+            this.ClientSize = new System.Drawing.Size(967, 540);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button9);

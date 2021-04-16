@@ -8,6 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using proyectoDisney_.variable_Global;
+using System.IO;
+
 
 namespace proyectoDisney_
 {
@@ -34,6 +37,7 @@ namespace proyectoDisney_
 
         private void formUserMarvel_Load(object sender, EventArgs e)
         {
+            cargarArchivosTxt();
             StreamWriter escribirArchivo = new StreamWriter("Marvel.txt", true);
             escribirArchivo.Close();
             string[] lines = File.ReadAllLines("Marvel.txt");
@@ -45,6 +49,29 @@ namespace proyectoDisney_
                     listBox1.Items.Add(fila);
                 }
             }
+        }
+
+        public void cargarArchivosTxt()
+        {
+            string user = variableGlobal.valor;
+            //Se busca archivo que contendra la data de mi lista del usuario
+            StreamWriter archivoLista = new StreamWriter(string.Format("miLista{0}.txt", user), true);
+            archivoLista.Close();
+
+            StreamReader leeListar = new StreamReader(string.Format("miLista{0}.txt", user), true);
+            string[] contentMiListaTxt = File.ReadAllLines(string.Format("miLista{0}.txt", user));
+            leeListar.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //Metodo para escribir en el archivo del usuario
+            string dato = Convert.ToString(listBox1.SelectedItem);
+            string user = variableGlobal.valor;
+            StreamWriter archivoUser = new StreamWriter(string.Format("miLista{0}.txt", user), true);
+            archivoUser.WriteLine(dato);
+            archivoUser.Close();
+            MessageBox.Show("Se agrego el contenido " + "*" + dato + "*" + " a MI LISTA de reproducción.");
         }
     }
 }
