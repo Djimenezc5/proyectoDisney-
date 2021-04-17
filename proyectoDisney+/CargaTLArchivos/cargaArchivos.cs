@@ -11,12 +11,16 @@ namespace proyectoDisney_.CargaTLArchivos
     class cargaArchivos
     {
         public List<string> resultList;
-
+        /// <summary>
+        /// Funcion que retornara los resultados que coinciden con el nombre de la pelicula a buscar
+        /// </summary>
+        /// <param name="value"></param> nombre de la pelicula
+        /// <returns></returns>
         public List<string> LoadingTxt(string value){
         List<string> filesData = new List<string>();
             var myregex = new Regex(value, RegexOptions.IgnoreCase);
 
-            //var myRegex = new Regex("^."+search+"$");
+
 
             //Archivo Disney
             StreamWriter archivoDisneytxt = new StreamWriter("Disney.txt", true);
@@ -83,6 +87,7 @@ namespace proyectoDisney_.CargaTLArchivos
                     filesData.Add(fila);
                 }
             }
+            //Retornara todos los nombres de las peliculas que hacen match con lo que ingreso el usuario
             return resultList = filesData.Where(i => myregex.IsMatch(i)).ToList();
         }
     }

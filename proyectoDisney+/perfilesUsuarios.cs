@@ -58,7 +58,7 @@ namespace proyectoDisney_
         {
             construccion_BotonesTemps();
         }
-
+        //Funcion que creara y dibujara los botones temporales de los usuarios
         public  void construccion_BotonesTemps()
         {
             

@@ -36,6 +36,7 @@ namespace proyectoDisney_
         {
             cargarArchivosTxt();
         }
+        //Metodo para cargar el archivo dependiendo del usuario con que se ingreso a la plataforma
         public void cargarArchivosTxt()
         {
 
