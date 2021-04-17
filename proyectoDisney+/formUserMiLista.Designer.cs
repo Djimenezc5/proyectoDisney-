@@ -148,6 +148,7 @@ namespace proyectoDisney_
             this.picImage.Location = new System.Drawing.Point(242, 371);
             this.picImage.Name = "picImage";
             this.picImage.Size = new System.Drawing.Size(354, 287);
+            this.picImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picImage.TabIndex = 13;
             this.picImage.TabStop = false;
             // 
