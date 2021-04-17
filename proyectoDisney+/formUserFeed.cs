@@ -91,8 +91,8 @@ namespace proyectoDisney_
 
             }
 
-            //pictureBox1.ImageLocation = string.Format(@"imagenes carrusel\{0}.jpg", ImgNum);
-            pictureBox1.ImageLocation = string.Format(@"{0}.jpg", ImgNum);
+            pictureBox1.ImageLocation = string.Format(@"imagenes carrusel\{0}.jpg", ImgNum);
+            //pictureBox1.ImageLocation = string.Format(@"{0}.jpg", ImgNum);
             ImgNum++;
         }
 
