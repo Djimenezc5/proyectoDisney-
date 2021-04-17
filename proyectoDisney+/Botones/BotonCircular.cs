@@ -10,6 +10,10 @@ namespace proyectoDisney_.Botones
 {
     class BotonCircular: Button
     {
+        /// <summary>
+        /// Creacion para botones circulares
+        /// </summary>
+        /// <param name="pevent"></param>
         protected override void OnPaint(PaintEventArgs pevent)
         {
             GraphicsPath grPath = new GraphicsPath();

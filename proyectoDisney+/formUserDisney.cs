@@ -13,27 +13,34 @@ using System.IO;
 
 namespace proyectoDisney_
 {
+    /// <summary>
+    /// Formulario Disney
+    /// </summary>
     public partial class formUserDisney : Form
     {
         public formUserDisney()
         {
             InitializeComponent();
         }
-
+        //Regresara al Feed
         private void button1_Click(object sender, EventArgs e)
         {
             formUserFeed f1 = new formUserFeed();
             this.Hide();
             f1.Show();
         }
-
+        //Se movera al form de buscar pelicula
         private void button2_Click(object sender, EventArgs e)
         {
             formUserBuscarPeliculas buscarPelicula = new formUserBuscarPeliculas();
             this.Hide();
             buscarPelicula.Show();
         }
-
+        /// <summary>
+        /// Funcion que cargara el txt sobre la categoria Disney
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void formUserDisney_Load(object sender, EventArgs e)
         {
             cargarArchivosTxt();
@@ -50,6 +57,9 @@ namespace proyectoDisney_
             }
         }
 
+        /// <summary>
+        /// Cargara el archivo txt dinamico y lo leera
+        /// </summary>
         public void cargarArchivosTxt()
         {
             string user = variableGlobal.valor;
