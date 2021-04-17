@@ -34,6 +34,7 @@ namespace proyectoDisney_
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -42,7 +43,7 @@ namespace proyectoDisney_
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(200, 168);
+            this.label1.Location = new System.Drawing.Point(161, 173);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 18);
             this.label1.TabIndex = 1;
@@ -63,7 +64,7 @@ namespace proyectoDisney_
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(285, 166);
+            this.textBox1.Location = new System.Drawing.Point(246, 171);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(268, 20);
             this.textBox1.TabIndex = 3;
@@ -72,7 +73,7 @@ namespace proyectoDisney_
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(285, 213);
+            this.listBox1.Location = new System.Drawing.Point(246, 218);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(268, 225);
             this.listBox1.TabIndex = 4;
@@ -84,12 +85,26 @@ namespace proyectoDisney_
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(522, 163);
+            this.button9.Location = new System.Drawing.Point(483, 168);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(31, 25);
             this.button9.TabIndex = 14;
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.button10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button10.Location = new System.Drawing.Point(607, 218);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(79, 45);
+            this.button10.TabIndex = 16;
+            this.button10.Text = "Agregar a mi Lista";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // formUserBuscarPeliculas
             // 
@@ -98,6 +113,7 @@ namespace proyectoDisney_
             this.BackgroundImage = global::proyectoDisney_.Properties.Resources.fondoBuscar1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(818, 510);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox1);
@@ -117,5 +133,6 @@ namespace proyectoDisney_
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
     }
 }

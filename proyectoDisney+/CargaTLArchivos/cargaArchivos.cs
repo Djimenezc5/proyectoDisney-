@@ -12,9 +12,9 @@ namespace proyectoDisney_.CargaTLArchivos
     {
         public List<string> resultList;
 
-        public List<string> LoadingTxt(){
+        public List<string> LoadingTxt(string value){
         List<string> filesData = new List<string>();
-            var myregex = new Regex("^.+$");
+            var myregex = new Regex(value, RegexOptions.IgnoreCase);
 
             //var myRegex = new Regex("^."+search+"$");
 
@@ -83,8 +83,8 @@ namespace proyectoDisney_.CargaTLArchivos
                     filesData.Add(fila);
                 }
             }
-            //return resultList = filesData.Where(f => myRegex.IsMatch(f)).ToList();
             return resultList = filesData.Where(i => myregex.IsMatch(i)).ToList();
         }
     }
+
 }
